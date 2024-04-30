@@ -100,7 +100,7 @@ export class TaggingQuestion extends DDD {
           id="submit-area"
           class="user-choice-container"
           @dragover="${this.handleDragOver}"
-          @drop="${this.handleDrop}"
+          @drop="${this.handleDrop}">
           <p>Drag selected tags here to submit:</p>
           ${this.renderSelectedTags()}
         </div>
@@ -110,7 +110,7 @@ export class TaggingQuestion extends DDD {
   }
 
   loadTagsData() {
-    fetch("./src/tagging-answers.json")
+    fetch("./src/tagging-answer.json")
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch tags data');
