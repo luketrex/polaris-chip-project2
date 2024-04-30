@@ -90,6 +90,7 @@ export class TaggingQuestion extends DDD {
                 class="tag-option"
                 draggable="true"
                 @dragstart="${(e) => this.handleDragStart(e, tagOption)}"
+                style="display: inline-block;" 
               >
                 ${tagOption}
               </div>
