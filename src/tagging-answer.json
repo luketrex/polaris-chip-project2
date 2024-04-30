@@ -1,0 +1,78 @@
+{
+    "default": {
+      "tagOptions": [
+        "default btn",
+        "default btn"
+      ],
+      "tagAnswers": [
+        {
+          "default btn - true": {
+            "correct": true,
+            "feedback": "default feedback option true"
+          }
+        },
+        {
+          "default btn - false": {
+            "correct": false,
+            "feedback": "default feedback option false"
+          }
+        }
+      ]
+    },
+  
+  
+    "haxLogo": {
+      "tagOptions": [
+        "Symbolsim",
+        "Abstract Expressionims",
+        "Minimalism",
+        "Surrealism",
+        "Cultural References",
+        "Narrative",
+        "Experimental Techniques"
+      ],
+      "tagAnswers": [
+        {
+          "Symbolism": {
+            "correct": false,
+            "feedback": "The nature image does not hold much symbolism"
+          }
+        },
+        {
+          "Abstract Expressionism": {
+            "correct": false,
+            "feedback": "Nt many spontaneous brushwork."
+          }
+        },
+        {
+          "Minimalism": {
+            "correct": true,
+            "feedback": "There seems to be simplicity and pure fomr."
+          }
+        },
+        {
+          "Surrealism": {
+            "correct": true,
+            "feedback": "Dreamlike imagery, so this could work"
+          }
+        },
+        {
+          "Cultural References": {
+            "correct": false,
+            "feedback": "While there could be symbolism relating to certain cultures, it was not intended for that."
+          }
+        },
+        {
+          "Narrative": {
+            "correct": true,
+            "feedback": "Some sense of storytelling."
+          }
+        },
+        {
+          "Experimental Techniques": {
+            "correct": false,
+            "feedback": "The artist employs simple and known methods."
+          }
+        }
+      ]
+    }}
